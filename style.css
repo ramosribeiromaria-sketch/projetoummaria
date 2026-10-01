@@ -35,7 +35,7 @@ main{
 }
 
 .cabecalho-link{
-    color:#199c26;
+    color: white;
     text-decoration: none;
 }
 
@@ -47,5 +47,18 @@ h1{
 footer{
    background-color: #042b08;
    padding: 15px 25px;
-   color: #21d834;
+   color: white;
+}
+cartao-interno{
+    position:relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cartao:hover .cartao-interno{
+    transform:rotateY(180deg);
+}
+
+.cartao-frente, .cartao-verso{
+
 }
