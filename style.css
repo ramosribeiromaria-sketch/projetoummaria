@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#0c6e16;
+    background-color:#0d4112;
 
 }
 
@@ -22,5 +22,30 @@
 }
 
 body{
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#0c6e16;
+}
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho-link{
+    color:#199c26;
+    text-decoration: none;
+}
+
+h1{
+    color: #199c26;
+    font-size: 24px;
+}
+
+footer{
+   background-color: #042b08;
+   padding: 15px 25px;
+   color: #21d834;
 }
